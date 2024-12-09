@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.titletxt { 
+    color: orange;
+    margin: 2px;
+    text-align: center;
+    font-family: 'Fira Code', 'Courier New', 'Source Code Pro', 'Roboto', 'Monospace';
+  }
+  .subtitletxt { 
+    color: orange;
+    margin: 2px;
+    text-align: right;
+    font-family: 'Fira Code', 'Courier New', 'Source Code Pro', 'Roboto', 'Monospace';
+  }
+
+#headerbox { 
+    border: 5px solid rgba(128, 77, 0, 0.425);
+    padding: 4x;
+    margin: 5%;
+}
+#bodybox { 
+    border: 5px solid rgba(128, 77, 0, 0.425);
+    width: 60%;   /* Set width to one-third of the screen */
+    margin-left: 0;  /* Ensures the box aligns to the left */
+    padding: 20px;
+    margin: 5%
+}
+
+
+
+
+
+
+
+
+
+
+.header { 
+    color: blue;
+    margin: 2px;
+
+  }
+
+.txtcontent { 
+    color: purple;
+  }
+
+.txtcontent#squidtxt:hover {
+    color: orange;
+  }
+
+.txtcontent:hover {
+    color: orange;
+  }
+
+#squidtxt {
+    color: green;
+}
+
+.link:hover {
+    color: orange;
+}
+
+
